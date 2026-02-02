@@ -3,6 +3,7 @@ node_modules/
 
 # Ignore build output
 build/
+coverage/
 
 # Ignore environment variables
 .env
@@ -16,3 +17,9 @@ yarn-error.log*
 .vscode/
 .idea/
 .DS_Store
+
+# Ignore Firebase
+.firebase/
+firebase.json
+firestore.rules
+firestore.indexes.json
