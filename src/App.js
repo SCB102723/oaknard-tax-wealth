@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import States from './pages/States';
 import Resources from './pages/Resources';
+import Calendar from './pages/Calendar';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/states" element={<States />} />
         <Route path="/resources" element={<Resources />} />
+        <Route path="/calendar" element={<Calendar />} />
       </Routes>
     </Router>
   );

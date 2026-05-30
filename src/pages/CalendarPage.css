@@ -1,0 +1,260 @@
+.calendar-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.calendar-header {
+  margin-bottom: 36px;
+}
+
+.calendar-header h1 {
+  font-size: 2rem;
+  color: #111;
+  margin-bottom: 8px;
+}
+
+.calendar-header > p {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 680px;
+  margin-bottom: 20px;
+}
+
+/* Filter */
+.cal-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cal-filter label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.cal-filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.cal-filter-btn {
+  padding: 5px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 999px;
+  background: #fff;
+  font-size: 0.85rem;
+  color: #374151;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.cal-filter-btn:hover {
+  border-color: #9ca3af;
+}
+
+.cal-filter-btn.active {
+  background: #111;
+  border-color: #111;
+  color: #fff;
+}
+
+/* Sections */
+.cal-section {
+  margin-bottom: 48px;
+}
+
+.cal-section-title {
+  font-size: 1.25rem;
+  color: #111;
+  margin-bottom: 4px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.recurring-title {
+  border-bottom-color: #d97706;
+}
+
+.cal-section-sub {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 16px;
+}
+
+/* Recurring cards */
+.cal-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 14px;
+}
+
+.cal-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.cal-card-header {
+  background: #f9fafb;
+  padding: 14px 16px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.cal-card-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+
+.cal-schedule {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.cal-card-body {
+  padding: 14px 16px;
+}
+
+/* Annual rows */
+.cal-month-group {
+  margin-bottom: 24px;
+}
+
+.cal-month-label {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  background: #2563eb;
+  display: inline-block;
+  padding: 3px 14px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.cal-month-entries {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cal-row {
+  display: flex;
+  gap: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #fff;
+  padding: 14px 16px;
+  flex-wrap: wrap;
+}
+
+.cal-row-left {
+  min-width: 200px;
+  flex: 0 0 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cal-row-right {
+  flex: 1;
+  min-width: 200px;
+}
+
+.cal-row-county {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+/* Shared atoms */
+.cal-state-tag {
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  background: #f3f4f6;
+  color: #374151;
+  padding: 2px 8px;
+  border-radius: 4px;
+  border: 1px solid #e5e7eb;
+}
+
+.cal-county {
+  font-weight: 600;
+  color: #111;
+  font-size: 0.95rem;
+}
+
+.cal-type-badge {
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 999px;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.cal-window {
+  font-size: 0.85rem;
+  color: #d97706;
+  font-weight: 600;
+}
+
+.cal-notes {
+  font-size: 0.88rem;
+  color: #4b5563;
+  line-height: 1.55;
+  margin: 0 0 8px;
+}
+
+.cal-platform-link {
+  font-size: 0.85rem;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.cal-platform-link:hover {
+  text-decoration: underline;
+}
+
+.cal-platform-text {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.cal-disclaimer {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 20px;
+  font-size: 0.82rem;
+  color: #9ca3af;
+  line-height: 1.6;
+}
+
+.cal-empty {
+  color: #9ca3af;
+  font-size: 0.95rem;
+  padding: 40px 0;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .cal-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .cal-row-left {
+    flex: 1 1 100%;
+  }
+}

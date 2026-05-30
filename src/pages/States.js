@@ -11,7 +11,7 @@ const TOP_10_STATES = [
     bidMethod: 'Bid-down interest rate — lowest rate wins',
     minBid: 'Back taxes + fees',
     notes: 'One of the most popular lien states. Large volume of auctions. Many counties now hold auctions online via RealTaxDeed.com or GovEase.',
-    officialLink: 'https://floridarevenue.com/property/Pages/TaxDeedSales.aspx',
+    officialLink: 'https://floridarevenue.com/property/Pages/default.aspx',
   },
   {
     name: 'Texas',
@@ -33,7 +33,7 @@ const TOP_10_STATES = [
     bidMethod: 'Bid-down penalty — lowest percentage wins',
     minBid: 'Delinquent tax amount',
     notes: 'Very high potential returns but long redemption periods. Cook County (Chicago) is one of the largest tax lien sales in the country. Requires careful due diligence on property condition.',
-    officialLink: 'https://www.cookcountytreasurer.com/taxsales.aspx',
+    officialLink: 'https://www.cookcountytreasurer.com/annualtaxsale.aspx',
   },
   {
     name: 'New Jersey',
@@ -44,7 +44,7 @@ const TOP_10_STATES = [
     bidMethod: 'Bid-down interest, then premium bid if rate hits 0%',
     minBid: 'Outstanding tax balance',
     notes: 'Unique system where municipalities conduct their own auctions independently. Requires tracking hundreds of individual municipal calendars. High returns but complex logistics.',
-    officialLink: 'https://www.nj.gov/treasury/taxation/lpt/lptlienlaw.shtml',
+    officialLink: 'https://www.tctanj.org/',
   },
   {
     name: 'Arizona',
@@ -55,7 +55,7 @@ const TOP_10_STATES = [
     bidMethod: 'Bid-down interest rate',
     minBid: 'Delinquent tax amount',
     notes: 'Straightforward lien state with a centralized system. Most counties now use online auctions. Good for beginners due to consistent rules across counties.',
-    officialLink: 'https://azdor.gov/property-tax/tax-lien-sale-information',
+    officialLink: 'https://treasurer.maricopa.gov/taxlienweb/',
   },
   {
     name: 'Georgia',
@@ -66,7 +66,7 @@ const TOP_10_STATES = [
     bidMethod: 'Premium bid — highest bid wins',
     minBid: 'Delinquent taxes + fees',
     notes: 'Georgia holds tax deed sales but the owner has 1 year to redeem by paying the buyer back plus the 20% penalty. After 1 year with no redemption, the investor has clear title. Monthly sales in most counties.',
-    officialLink: 'https://dor.georgia.gov/taxes/tax-compliance/tax-liens',
+    officialLink: 'https://fultoncountyga.gov/inside-fulton-county/fulton-county-departments/sheriff/tax-sales',
   },
   {
     name: 'Indiana',
@@ -77,7 +77,7 @@ const TOP_10_STATES = [
     bidMethod: 'SRI/Bid4Assets platform — online auctions',
     minBid: 'Minimum bid set by county',
     notes: 'Indiana uses a statewide online platform (SRI) making it easy to participate from anywhere. Shorter redemption period than many lien states. After 1 year, investor can petition for deed.',
-    officialLink: 'https://www.in.gov/dlgf/8455.htm',
+    officialLink: 'https://www.sriservices.com/',
   },
   {
     name: 'Maryland',
@@ -99,7 +99,7 @@ const TOP_10_STATES = [
     bidMethod: 'Premium bid or set price depending on county',
     minBid: 'Delinquent tax amount',
     notes: 'Ohio sells tax lien certificates. After the redemption period, investors can foreclose. Franklin County (Columbus) and Cuyahoga County (Cleveland) are the largest markets.',
-    officialLink: 'https://www.ohiotreasurer.gov/',
+    officialLink: 'https://treasurer.franklincountyohio.gov/delinquent-taxes/tax-lien-sale/',
   },
   {
     name: 'Colorado',
@@ -110,7 +110,7 @@ const TOP_10_STATES = [
     bidMethod: 'Bid-down interest rate',
     minBid: 'Delinquent tax amount',
     notes: 'Colorado uses a bid-down system similar to Florida. The interest rate is set by the state based on inflation (CPI) plus a premium. Denver and El Paso counties are the most active.',
-    officialLink: 'https://cdor.colorado.gov/taxes/property-tax',
+    officialLink: 'https://treasurer.elpasoco.com/treasurer-elpasoco-com/tax-lien-sale/',
   },
 ];
 

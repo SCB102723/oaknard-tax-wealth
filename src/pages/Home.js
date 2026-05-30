@@ -13,7 +13,8 @@ function Home() {
         </p>
         <div className="home-cta">
           <Link to="/states" className="cta-button primary">Top 10 States</Link>
-          <Link to="/resources" className="cta-button secondary">All Resources</Link>
+          <Link to="/calendar" className="cta-button secondary">Auction Calendar</Link>
+          <Link to="/resources" className="cta-button secondary">Resources</Link>
         </div>
       </div>
 

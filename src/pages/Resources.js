@@ -18,7 +18,7 @@ const LINKS = [
     { title: 'Bid4Assets', url: 'https://www.bid4assets.com/' },
     { title: 'GovEase', url: 'https://www.govease.com/' },
     { title: 'RealTaxDeed', url: 'https://www.realtaxdeed.com/' },
-    { title: 'SRI (Indiana)', url: 'https://www.sri-tax.com/' },
+    { title: 'SRI (Indiana)', url: 'https://www.sriservices.com/' },
     { title: 'Auction.com – Tax Deed Sales', url: 'https://www.auction.com/blog/tax-deed-sales/' },
   ]},
   { category: 'Government & Legal', items: [
