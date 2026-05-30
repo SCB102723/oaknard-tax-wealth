@@ -1,0 +1,144 @@
+.states-page {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.states-header {
+  margin-bottom: 24px;
+}
+
+.states-header h1 {
+  font-size: 2rem;
+  color: #111;
+  margin-bottom: 8px;
+}
+
+.states-header p {
+  color: #555;
+  font-size: 1rem;
+}
+
+.legend {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.states-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.state-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.state-card-header {
+  display: flex;
+  align-items: center;
+  padding: 16px 20px;
+  cursor: pointer;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.state-card-header:hover {
+  background: #f9fafb;
+}
+
+.state-card-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+
+.state-card-title h2 {
+  font-size: 1.1rem;
+  margin: 0;
+  color: #111;
+}
+
+.state-type-badge {
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 999px;
+  letter-spacing: 0.04em;
+}
+
+.state-card-summary {
+  display: flex;
+  gap: 20px;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.expand-btn {
+  background: none;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  padding: 4px 10px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: #555;
+  white-space: nowrap;
+}
+
+.state-card-detail {
+  border-top: 1px solid #e5e7eb;
+  padding: 20px;
+  background: #fafafa;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.detail-item label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #9ca3af;
+}
+
+.detail-item span {
+  font-size: 0.95rem;
+  color: #111;
+}
+
+.state-notes {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.65;
+  margin-bottom: 16px;
+}
+
+.official-link {
+  font-size: 0.9rem;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.official-link:hover {
+  text-decoration: underline;
+}
